@@ -1,5 +1,5 @@
 # AWS CLI Cheatsheet
-DOcumentation for AWS studies. AWS CLI Reference: https://docs.aws.amazon.com/cli/latest/#
+Documentation for AWS studies. AWS CLI Reference: https://docs.aws.amazon.com/cli/latest/#
 
 ## Summary
 - Commands
