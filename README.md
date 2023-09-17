@@ -116,14 +116,6 @@ aws ebs get-snapshot-block
 ```
 
 ```shell
---block-index (value)
-```
-
-```shell
---snapshot-id (value)
-```
-
-```shell
 --block-token (value)
 ```
 
