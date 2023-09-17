@@ -3,11 +3,15 @@ Documentation for AWS studies.
 
 ## Summary
 - [Overview](README.md#overview)
-  - JQ Utilization
-- Config
-    - Create profiles
-    - Output Format
-    - AWS Region
+  - [JQ Utilization](README.md#jq-utilization)
+- [Config](README.md#config)
+- [API Gateway](README.md#api-gateway)
+- [CloudFront](README.md#cloudfront)
+- [CloudWatch](README.md#cloudwatch)
+- [Elastic Block Store (EBS)](README.md#elastic-block-store-(ebs))
+- [Elastic Compute Cloud (EC2)](README.md#elastic-compute-cloud-(ec2))
+- [EC2 container service (ECS)](README.md#ec2-container-service-(ecs))
+- [Elastic Kubernetes Service (EKS)](README.md#elastic-kubernetes-service-(eks))
 
 ## Overview
 The purpose of this page is to separate a list of commands and descriptions for study purposes. 
