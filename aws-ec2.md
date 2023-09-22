@@ -6,7 +6,9 @@
 - **EC2 Spot:**	Up to 90% off fault-tolerant workloads are run by using this.
 - **EC2 Autosc­aling:** To meet changing demand, automatically add or remove compute capacity.
 
-### AWS CLI - Commands 
+## AWS CLI - Commands 
+
+### List Network Information
 
 List Instance ID, Type and Name
 ```shell
@@ -18,16 +20,18 @@ List Instances with public IP address and Name
 aws ec2 describe-instances --query 'Reservations[*].Instances[?not_null(PublicIpAddress)]' | jq -r '.[][]|.PublicIpAddress+" "+(.Tags[]|select(.Key=="Name").Value)
 ```
 
-List VPCs and CIDR IP Block
-```shell
-aws ec2 describe-instances --query 'Reservations[*].Instances[?not_null(PublicIpAddress)]' | jq -r '.[][]|.PublicIpAddress+" "+(.Tags[]|select(.Key=="Name").Value)
-```
-
 List Subnets for a VPC
 ```shell
 aws ec2 describe-subnets --filter Name=vpc-id,Values=vpc-0d1c1cf4e980ac593 | jq -r '.Subnets[]|.SubnetId+" "+.CidrBlock+" "+(.Tags[]|select(.Key=="Name").Value)'
 ```
 
+List VPCs and CIDR IP Block
+```shell
+aws ec2 describe-instances --query 'Reservations[*].Instances[?not_null(PublicIpAddress)]' | jq -r '.[][]|.PublicIpAddress+" "+(.Tags[]|select(.Key=="Name").Value)
+```
+
+#
+### Security Groups
 List Security Groups
 ```shell
 aws ec2 describe-security-groups | jq -r '.SecurityGroups[]|.GroupId+" "+.GroupName'```
