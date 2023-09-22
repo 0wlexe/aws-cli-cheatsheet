@@ -1,4 +1,13 @@
 ## Elastic Compute Cloud (EC2)
+
+### Dictionary
+
+- **EC2:**	Web-scale cloud computing is simplified using It.
+- **EC2 Spot:**	Up to 90% off fault-tolerant workloads are run by using this.
+- **EC2 Autosc­aling:** To meet changing demand, automatically add or remove compute capacity.
+
+### AWS CLI - Commands 
+
 List Instance ID, Type and Name
 ```shell
 aws ec2 describe-instances | jq -r '.Reservations[].Instances[]|.InstanceId+" "+.InstanceType+" "+(.Tags[] | select(.Key == "Name").Value)'
