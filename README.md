@@ -4,7 +4,7 @@ Documentation for AWS studies.
 ## Summary
 - [Overview](README.md#overview)
   - [JQ Utilization](README.md#jq-utilization)
-- [Config](README.md#config)
+- [Config](config.md)
 - [API Gateway](README.md#api-gateway)
 - [AWS IAM](README.md#aws-iam)
 - [CloudFront](README.md#cloudfront)
