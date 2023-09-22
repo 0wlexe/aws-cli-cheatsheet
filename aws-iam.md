@@ -1,5 +1,16 @@
 
-## AWS IAM 
+## Identity & Access Management (IAM)
+
+### Dictionary
+
+- **IAM:** Identity that provides secure and controlled access to AWS services.
+- **Role:** Type of IAM identity that can be authenticated and authorized to utilize an AWS resource.
+- **Policy:**	 Defines the permissions of the IAM identity. IAM policies can either be identity-based or resource-based.
+  - **Identity-based:** Are attached to an identity (a user, group, or role) and dictate the permissions of that specific identity.
+  - **Resource-based:** Defines the permissions around the specific resource by specifying which identities have access to a specific resource and when.
+
+### AWS CLI - Commands 
+
 Create IAM User
 ```shell
 aws iam create-user --user-name (account-name)
