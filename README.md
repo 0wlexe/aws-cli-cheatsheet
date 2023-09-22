@@ -1,7 +1,7 @@
 # AWS CLI Cheatsheet
 Documentation for AWS studies. 
 
-## Summary
+### Summary
 - [Overview](README.md#overview)
   - [JQ Utilization](README.md#jq-utilization)
 - [Config](https://github.com/0wlexe/aws-cli-cheatsheet/blob/main/config.md)
