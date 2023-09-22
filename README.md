@@ -4,15 +4,15 @@ Documentation for AWS studies.
 ## Summary
 - [Overview](README.md#overview)
   - [JQ Utilization](README.md#jq-utilization)
-- [Config](config.md)
-- [API Gateway](README.md#api-gateway)
-- [AWS IAM](README.md#aws-iam)
-- [CloudFront](README.md#cloudfront)
-- [CloudWatch](README.md#cloudwatch)
-- [Elastic Block Store (EBS)](README.md#elastic-block-store-ebs)
-- [Elastic Compute Cloud (EC2)](README.md#elastic-compute-cloud-ec2)
-- [EC2 container service (ECS)](README.md#ec2-container-service-ecs)
-- [Elastic Kubernetes Service (EKS)](README.md#elastic-kubernetes-service-eks)
+- [Config](https://github.com/0wlexe/aws-cli-cheatsheet/blob/main/config.md)
+- [API Gateway](https://github.com/0wlexe/aws-cli-cheatsheet/blob/main/api-gateway.md)
+- [AWS IAM](https://github.com/0wlexe/aws-cli-cheatsheet/blob/main/aws-iam.md)
+- [CloudFront](https://github.com/0wlexe/aws-cli-cheatsheet/blob/main/cloudfront.md)
+- [CloudWatch](https://github.com/0wlexe/aws-cli-cheatsheet/blob/main/cloudwatch.md)
+- [Elastic Block Store (EBS)](https://github.com/0wlexe/aws-cli-cheatsheet/blob/main/aws-ebs.md)
+- [Elastic Compute Cloud (EC2)](https://github.com/0wlexe/aws-cli-cheatsheet/blob/main/aws-ec2.md)
+- [EC2 container service (ECS)](https://github.com/0wlexe/aws-cli-cheatsheet/blob/main/aws-ecs.md)
+- [Elastic Kubernetes Service (EKS)](https://github.com/0wlexe/aws-cli-cheatsheet/blob/main/aws-eks.md)
 
 ## Overview
 The purpose of this page is to separate a list of commands and descriptions for study purposes. 
